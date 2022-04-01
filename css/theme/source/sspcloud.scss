@@ -1,0 +1,58 @@
+/**
+ * A simple theme for reveal.js presentations, similar
+ * to the default theme. The accent color is darkblue.
+ *
+ * This theme is Copyright (C) 2012 Owen Versteeg, https://github.com/StereotypicalApps. It is MIT licensed.
+ * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+
+// Include theme-specific fonts
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+
+// Override theme settings (see ../template/settings.scss)
+$mainFont: 'Work Sans', sans-serif;
+$mainColor: rgb(44, 50, 63);
+$mainFontSize: 36px;
+$headingFont: 'Work Sans', Impact, sans-serif;
+$headingColor: rgb(44, 50, 63);
+$headingTextShadow: 1px 1px 1px rgba(0,0,0,0.3);
+$headingTextTransform: none;
+$headingFontWeight: bold;
+$heading1TextShadow: 2px 4px 3px rgba(0,0,0,0.3);
+$backgroundColor: #f1f0eb;
+$linkColor: rgb(255, 86, 44);
+$linkColorHover: lighten( $linkColor, 20% );
+$selectionBackgroundColor: rgba(0, 0, 0, 0.99);
+
+$heading1Size: 2.5em;
+
+// Change text colors against dark slide backgrounds
+@include dark-bg-text-color(#fff);
+
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
+
+body:after {
+    content: url(../../logo.svg);
+    position: fixed;
+    top: 0.5em;
+    left: 0.5em;
+    width: 3em;
+}
+
+.reveal blockquote {
+    box-shadow: unset;
+}
+
