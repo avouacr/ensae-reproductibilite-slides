@@ -383,7 +383,9 @@ et qui est **isolé** des autres environnements existants
 
 ### En pratique
 
-[Aide-mémoire des principales commandes](https://hungry-hodgkin-0a5a81.netlify.app/portability/#aide-m%c3%a9moire)
+- [Exercice guidé](https://hungry-hodgkin-0a5a81.netlify.app/portability/#en-pratique)
+
+- [Aide-mémoire des principales commandes](https://hungry-hodgkin-0a5a81.netlify.app/portability/#aide-m%c3%a9moire)
 
 ----
 
@@ -453,9 +455,9 @@ Source : [k21academy.com](https://k21academy.com/docker-kubernetes/docker-and-ku
 
 ### En pratique
 
-**Démo !**
+- [Exercice guidé](https://hungry-hodgkin-0a5a81.netlify.app/portability/#en-pratique-1)
 
-[Aide-mémoire des principales commandes](https://hungry-hodgkin-0a5a81.netlify.app/portability/#en-pratique-1)
+- [Aide-mémoire des principales commandes](https://hungry-hodgkin-0a5a81.netlify.app/portability/#en-pratique-1)
 
 ---
 
