@@ -290,6 +290,38 @@ https://hungry-hodgkin-0a5a81.netlify.app
 
 ---
 
+# Portabilité
+
+----
+
+### "It works... on my machine"
+
+- On a produit un projet
+    - Lisible
+    - Avec une structure normalisée
+    - Versionné proprement avec Git
+
+- Peut-on partager notre projet ?
+    - En théorie, oui !
+    - En pratique, c'est toujours plus compliqué...
+
+![](img/IWOMM.jpg)
+
+---
+
+### L'enjeu de la portabilité
+
+- Un code ne vit jamais dans une bulle isolée, il contient en général de nombreuses adhérences
+    - Des dépendances dans le langage du projet ;
+    - Des dépendances dans d'autres langages ;
+    - Des librairies système.
+
+- Le premier problème peut être résolu avec une structure de packages
+
+- Il nous faut de nouveaux outils pour atteindre une reproductibilité forte
+    - Les environnements virtuels
+    - Les conteneurs
+
 # Application
 
 ----
@@ -317,3 +349,5 @@ https://hungry-hodgkin-0a5a81.netlify.app
     - Nettoyage de code avec un *linter*
     - Adoption d'une architecture de projet normalisée
     - Git et GitHub
+    - Environnements virtuels
+    - Conteneurisation avec Docker
