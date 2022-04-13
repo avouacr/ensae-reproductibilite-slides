@@ -357,7 +357,7 @@ et qui est **isolé** des autres environnements existants
 
 ----
 
-### Implémentation
+### Implémentations
 
 - Différentes implémentations en Python
     - L'implémentation standard est `venv`
@@ -381,9 +381,9 @@ et qui est **isolé** des autres environnements existants
 
 ----
 
-### Gérer ses environnements avec `conda`
+### En pratique
 
-Démo !
+**Démo !**
 
 [Aide-mémoire des principales commandes](https://hungry-hodgkin-0a5a81.netlify.app/portability/#aide-m%c3%a9moire)
 
@@ -417,11 +417,43 @@ Démo !
 
 ----
 
-### Fonctionnement
+### Conteneurs vs machine virtuelles
 
-- Idée : empaqueter complètement l’environnement qui permet de faire tourner une application
+- Idée : **empaqueter** complètement l’environnement qui permet de faire tourner une application
 
 ![](img/docker-vm.png)
+
+----
+
+### Implémentations
+
+- Plusieurs implémentations des conteneurs
+
+- `Docker` est largement prédominant
+
+----
+
+### Installation
+
+- [Instructions](https://docs.docker.com/get-docker/) selon le système d'exploitation
+
+- Environnement "bac à sable" : [Play with Docker](https://labs.play-with-docker.com/)
+
+- `Docker` est un outil en ligne de commandes (CLI)
+
+----
+
+### *Workflow*
+
+![](img/docker-workflow.png)
+
+----
+
+### En pratique
+
+**Démo !**
+
+[Aide-mémoire des principales commandes](https://hungry-hodgkin-0a5a81.netlify.app/portability/#en-pratique-1)
 
 ---
 
