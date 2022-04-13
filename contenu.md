@@ -297,8 +297,7 @@ https://hungry-hodgkin-0a5a81.netlify.app
 ### "It works... on my machine"
 
 - On a construit un projet
-    - Lisible
-    - Avec une structure normalisée
+    - Lisible et bien structuré
     - Versionné proprement avec Git
 
 - Peut-on partager notre projet ?
@@ -311,14 +310,14 @@ https://hungry-hodgkin-0a5a81.netlify.app
 
 ### L'enjeu de la portabilité
 
-- Un code ne vit jamais dans une bulle isolée, il contient en général de nombreuses adhérences
-    - Des dépendances dans le langage du projet ;
-    - Des dépendances dans d'autres langages ;
-    - Des librairies système.
+- Un code ne vit jamais dans une bulle isolée, il contient en général de nombreuses **adhérences**
+    - Des **dépendances** dans le langage du projet
+    - Des dépendances dans d'autres langages
+    - Des **librairies système**
 
-- Un code est portable s'il peut être exécuté dans un environnement différent que celui du développement
+- Un code est **portable** s'il peut être exécuté dans un environnement différent que celui du développement
 
-- Il nous faut de nouveaux outils pour atteindre une portabilité forte
+- Il nous faut de **nouveaux outils** pour atteindre une portabilité forte
 
 ----
 
@@ -379,11 +378,10 @@ et qui est **isolé** des autres environnements existants
 
 [<img src="img/conda-eco.png" height="400"/>](img/conda-eco.png)
 
+
 ----
 
 ### En pratique
-
-**Démo !**
 
 [Aide-mémoire des principales commandes](https://hungry-hodgkin-0a5a81.netlify.app/portability/#aide-m%c3%a9moire)
 
@@ -423,6 +421,8 @@ et qui est **isolé** des autres environnements existants
 
 ![](img/docker-vm.png)
 
+Source : [docker.com](https://www.docker.com/resources/what-container/)
+
 ----
 
 ### Implémentations
@@ -446,6 +446,8 @@ et qui est **isolé** des autres environnements existants
 ### *Workflow*
 
 ![](img/docker-workflow.png)
+
+Source : [k21academy.com](https://k21academy.com/docker-kubernetes/docker-and-kubernetes/)
 
 ----
 
