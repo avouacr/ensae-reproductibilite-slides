@@ -381,20 +381,20 @@ et qui est **isolé** des autres environnements existants
 
 ----
 
-### Gérer ses environnements avec `Conda`
+### Gérer ses environnements avec `conda`
 
-| Commande | Principe |
-|----------|----------|
-| `conda create -n <env_name> python=<python_version>` | Création d'un environnement nommé `<env_name>` dont la version de Python est `<python_version>` |
-| `conda info --envs` | Lister les environnements |
-| `conda activate <env_name>` | Utiliser l'environnement `<env_name>` pour la session du terminal |
-| `conda list` | Lister les _packages_ dans l'environnement actif |
-| `conda install <pkg>` | Installer le _package_ `<pkg>` dans l'environnement actif |
-| `conda env export > environment.yml` | Exporter les spécifications de l’environnement dans un fichier `environment.yml` |
+Démo !
 
-
+[Aide-mémoire des principales commandes](https://hungry-hodgkin-0a5a81.netlify.app/portability/#aide-m%c3%a9moire)
 
 ----
+
+### Limites
+
+- Les librairies système ne sont pas gérées
+- Difficile de gérer des projets faisant intervenir plusieurs langages de programmation
+- Lourdeur de la phase d'installation à chaque changement d'environnement
+- Peu adaptés à un environnement de production
 
 ---
 
