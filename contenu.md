@@ -377,7 +377,7 @@ et qui est **isolé** des autres environnements existants
 
 - `conda` est un outil en ligne de commandes (CLI)
 
-![](img/conda-eco.png)
+[<img src="img/conda-eco.png" height="400"/>](img/conda-eco.png)
 
 ----
 
@@ -391,10 +391,37 @@ Démo !
 
 ### Limites
 
-- Les librairies système ne sont pas gérées
+- Les **librairies système** ne sont pas gérées
+
 - Difficile de gérer des projets faisant intervenir plusieurs langages de programmation
+
 - Lourdeur de la phase d'installation à chaque changement d'environnement
+
 - Peu adaptés à un environnement de production
+
+----
+
+## Les conteneurs
+
+----
+
+### Introduction
+
+- Idée : au lieu de distribuer la recette pour recréer la bonne machine, peut-on **distribuer directement la bonne machine** ?
+
+- On ne peut pas distribuer des **machines physiques**
+
+- Les **machines virtuelles** sont coûteuses et complexes à redistribuer
+
+- Les **conteneurs** offrent un bon compromis
+
+----
+
+### Fonctionnement
+
+- Idée : empaqueter complètement l’environnement qui permet de faire tourner une application
+
+![](img/docker-vm.png)
 
 ---
 
