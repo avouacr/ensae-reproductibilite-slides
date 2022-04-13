@@ -348,12 +348,12 @@ https://hungry-hodgkin-0a5a81.netlify.app
 
 ### Fonctionnement
 
-- Dossier auto-suffisant qui contient :
+- **Dossier auto-suffisant** qui contient :
     - Une installation de `Python` pour une version donnée ;
     - Des packages additionnels
-et qui est isolé des autres environnements existants
+et qui est **isolé** des autres environnements existants
 
-- Développer dans des environnements virtuels vierges en début de projet est une bonne pratique pour la reproductibilité
+- Développer dans des environnements virtuels vierges en début de projet est une bonne pratique pour la **reproductibilité**
 
 ----
 
@@ -371,13 +371,28 @@ et qui est isolé des autres environnements existants
 
 ### Installation
 
-- `conda` est généralement installé dans le cadre de distributions
+- `conda` est généralement installé dans le cadre de **distributions**
     - `Miniconda`
     - `Anaconda`
 
-- Le choix de distribution importe assez peu en pratique
+- `conda` est un outil en ligne de commandes (CLI)
 
 ![](img/conda-eco.png)
+
+----
+
+### Gérer ses environnements avec `Conda`
+
+| Commande | Principe |
+|----------|----------|
+| `conda create -n <env_name> python=<python_version>` | Création d'un environnement nommé `<env_name>` dont la version de Python est `<python_version>` |
+| `conda info --envs` | Lister les environnements |
+| `conda activate <env_name>` | Utiliser l'environnement `<env_name>` pour la session du terminal |
+| `conda list` | Lister les _packages_ dans l'environnement actif |
+| `conda install <pkg>` | Installer le _package_ `<pkg>` dans l'environnement actif |
+| `conda env export > environment.yml` | Exporter les spécifications de l’environnement dans un fichier `environment.yml` |
+
+
 
 ----
 
