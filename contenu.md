@@ -465,23 +465,11 @@ Source : [k21academy.com](https://k21academy.com/docker-kubernetes/docker-and-ku
 
 ----
 
-### Bonnes pratiques de la séance
-
-- Utiliser un **linter** pour implémenter les standards de qualité de code
-
-- Utiliser des **templates de projet** adaptés à la data science
-
-- **Versionner** ses projets avec **Git**
-
-- Collaborer de manière efficiente avec les **branches** et les **pull requests**
-
-----
-
 ### Exercice guidé
 
 - Dépôt GitHub : [https://github.com/avouacr/ensae-reproductibilite-projet](https://github.com/avouacr/ensae-reproductibilite-projet)
 
-- Consignes en bas de la page [Code et Architecture](https://hungry-hodgkin-0a5a81.netlify.app/code-architecture/) du cours
+- Consignes sur la page [Application](https://hungry-hodgkin-0a5a81.netlify.app/application/) du cours
 
 - Au programme :
     - Modularisation : mise en fonctions et en modules
