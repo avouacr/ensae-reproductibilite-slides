@@ -296,7 +296,7 @@ https://hungry-hodgkin-0a5a81.netlify.app
 
 ### "It works... on my machine"
 
-- On a produit un projet
+- On a construit un projet
     - Lisible
     - Avec une structure normalisée
     - Versionné proprement avec Git
@@ -307,7 +307,7 @@ https://hungry-hodgkin-0a5a81.netlify.app
 
 ![](img/IWOMM.jpg)
 
----
+----
 
 ### L'enjeu de la portabilité
 
@@ -316,11 +316,33 @@ https://hungry-hodgkin-0a5a81.netlify.app
     - Des dépendances dans d'autres langages ;
     - Des librairies système.
 
-- Le premier problème peut être résolu avec une structure de packages
+- Un code est portable s'il peut être exécuté dans un environnement différent que celui du développement
 
-- Il nous faut de nouveaux outils pour atteindre une reproductibilité forte
-    - Les environnements virtuels
-    - Les conteneurs
+- Il nous faut de nouveaux outils pour atteindre une portabilité forte
+
+----
+
+## Les environnements virtuels
+
+----
+
+### Introduction
+
+- *Workflow* classique du data scientist qui commencerait ses premiers projets
+    - Installer une distribution de `Python` sur son poste
+    - Développer un projet en installant les packages nécessaires
+    - Passer au projet suivant et ainsi de suite
+
+- Quels problèmes peuvent se poser ?
+
+### Enjeux
+
+- **Conflits de version** : différents projets peuvent recquérir des versions différentes d'un même *package* ;
+- **Version de Python fixe**, celle de l'installation système ;
+- **Reproductibilité limitée** : difficile de dire quel projet nécessite quel package ;
+- **Portabilité limitée** : difficile de fixer dans un fichier les dépendances spécifiques à un projet.
+
+---
 
 # Application
 
