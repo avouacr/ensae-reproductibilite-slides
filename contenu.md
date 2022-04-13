@@ -335,12 +335,51 @@ https://hungry-hodgkin-0a5a81.netlify.app
 
 - Quels problèmes peuvent se poser ?
 
+----
+
 ### Enjeux
 
 - **Conflits de version** : différents projets peuvent recquérir des versions différentes d'un même *package* ;
 - **Version de Python fixe**, celle de l'installation système ;
 - **Reproductibilité limitée** : difficile de dire quel projet nécessite quel package ;
 - **Portabilité limitée** : difficile de fixer dans un fichier les dépendances spécifiques à un projet.
+
+----
+
+### Fonctionnement
+
+- Dossier auto-suffisant qui contient :
+    - Une installation de `Python` pour une version donnée ;
+    - Des packages additionnels
+et qui est isolé des autres environnements existants
+
+- Développer dans des environnements virtuels vierges en début de projet est une bonne pratique pour la reproductibilité
+
+----
+
+### Implémentation
+
+- Différentes implémentations en Python
+    - L'implémentation standard est `venv`
+    - L'implémentation la plus populaire en data science est `conda`
+
+- `conda` est à la fois
+    - Un *package manager* (comme `pip`)
+    - Un gestionnaire d'environnements virtuels
+
+----
+
+### Installation
+
+- `conda` est généralement installé dans le cadre de distributions
+    - `Miniconda`
+    - `Anaconda`
+
+- Le choix de distribution importe assez peu en pratique
+
+![](img/conda-eco.png)
+
+----
 
 ---
 
