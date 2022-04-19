@@ -540,9 +540,9 @@ Source : [k21academy.com](https://k21academy.com/docker-kubernetes/docker-and-ku
 - Un **orchestrateur** de conteneurs répond à plusieurs besoins :
     - Adapter les ressources (**scaler**) selon les besoins
     - **Monitoring** de l'état de santé des applications
-    - Déploiement **automatisé** au maximum
+    - Déploiements reproductibles et automatisés
 
-[<img src="img/kubernetes-logo.png" height="50"/>](img/kubernetes-logo.png)
+[<img src="img/kubernetes-logo.png" height="100"/>](img/kubernetes-logo.png)
 
 ----
 
@@ -574,8 +574,6 @@ Source : [k21academy.com](https://k21academy.com/docker-kubernetes/docker-and-ku
 
 [<img src="img/devops.png" height="300"/>](img/devops.png)
 
-- Ces principes sont exigeants, mais permettent d'être plus **autonome** et de jouer un **rôle d'interface**
-
 ---
 
 # Application
@@ -595,3 +593,4 @@ Source : [k21academy.com](https://k21academy.com/docker-kubernetes/docker-and-ku
     - Git et GitHub
     - Environnements virtuels
     - Conteneurisation avec Docker
+    - Déploiement et automatisation
