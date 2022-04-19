@@ -484,7 +484,7 @@ Source : [k21academy.com](https://k21academy.com/docker-kubernetes/docker-and-ku
 
 - But : raccourcir le temps de développement en **déployant en continu** tout en maintenant la qualité
 
-[<img src="img/devops.png" height="400"/>](img/devops.png)
+[<img src="img/devops.png" height="300"/>](img/devops.png)
 
 ----
 
@@ -500,7 +500,36 @@ Source : [k21academy.com](https://k21academy.com/docker-kubernetes/docker-and-ku
 
 ----
 
+### La mise en production
 
+- On a construit un projet de data science **reproductible** et conforme aux **standards** des bonnes pratiques
+
+- Pour **valoriser** le projet, il faut le **déployer** dans un environnement en lien avec les utilisateurs
+    - Quel est le **format** adapté pour le valoriser ?
+    - Quelle **infrastructure de production** ?
+    - Comment **automatiser** le processus de déploiement ?
+
+----
+
+### Format de valorisation
+
+- **Critères** à prendre en compte :
+    - Quels sont les utilisateurs potentiels ?
+    - Seulement de la mise à disposition, ou besoin d'interactivité ?
+    - Entraînement en *batch* ou *online* ?
+    - Besoin de *scalabilité* ?
+
+- **Formats usuels** : API, application web, dashboard, site internet, rapport automatisé...
+
+----
+
+### Exposer un modèle via une API REST
+
+- **API** : **interface** entre l'utilisateur (client) et le modèle entraîné
+
+- **API REST** : permet de requêter le modèle avec une syntaxe simple (HTTP) et de manière *scalable*
+
+![](img/api-docker.png)
 
 ---
 
