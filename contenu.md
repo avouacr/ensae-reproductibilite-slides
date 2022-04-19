@@ -542,13 +542,39 @@ Source : [k21academy.com](https://k21academy.com/docker-kubernetes/docker-and-ku
     - **Monitoring** de l'état de santé des applications
     - Déploiement **automatisé** au maximum
 
-[<img src="img/kubernetes-logo.png" height="200"/>](img/kubernetes-logo.png)
+[<img src="img/kubernetes-logo.png" height="100"/>](img/kubernetes-logo.png)
 
 ----
 
 ### Fonctionnement de Kubernetes
 
 ![](img/kubernetes-archi.png)
+
+----
+
+### L'approche CI/CD : principes
+
+- **Intégration continue** (CI) : à chaque modification du code source, l'application est automatiquement testée et *released*
+
+- **Déploiement continu** (CD) : les nouvelles *releases* sont automatiquement déployées
+
+- **GitOps** : le processus est décrit sous formes de manifestes (.yaml), stockés sur un dépôt Git
+
+----
+
+### L'approche CI/CD : exemple
+
+![](img/ci-cd.png)
+
+----
+
+### Conclusion
+
+- On a construit un pipeline **reproductible**, **automatisé** et **scalable**
+
+![](img/devops.png)
+
+- Ces principes sont exigeants, mais permettent d'être plus **autonome** et de jouer un **rôle d'interface**
 
 ---
 
