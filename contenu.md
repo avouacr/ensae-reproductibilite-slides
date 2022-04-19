@@ -17,7 +17,7 @@
 
 - Contenu en construction : 
 
-https://hungry-hodgkin-0a5a81.netlify.app
+https://ensae-reproductibilite.netlify.app
 
 - Programme large
 
@@ -235,8 +235,8 @@ https://hungry-hodgkin-0a5a81.netlify.app
 - Utilisation en **ligne de commande**
 
 - Ressources sur le site :
-    - [Introduction au terminal Linux](https://hungry-hodgkin-0a5a81.netlify.app/linux-101/)
-    - [Rappels des commandes de base de Git](https://hungry-hodgkin-0a5a81.netlify.app/git/)
+    - [Introduction au terminal Linux](https://ensae-reproductibilite.netlify.app/linux-101/)
+    - [Rappels des commandes de base de Git](https://ensae-reproductibilite.netlify.app/git/)
 
 ---
 
@@ -262,7 +262,7 @@ https://hungry-hodgkin-0a5a81.netlify.app
 
 ![](img/branches.png)
 
-[Présentation détaillée sur le site du cours](https://hungry-hodgkin-0a5a81.netlify.app/git/#branches)
+[Présentation détaillée sur le site du cours](https://ensae-reproductibilite.netlify.app/git/#branches)
 
 ----
 
@@ -270,7 +270,7 @@ https://hungry-hodgkin-0a5a81.netlify.app
 
 ![](img/ghflow.png)
 
-[Présentation détaillée sur le site du cours](https://hungry-hodgkin-0a5a81.netlify.app/git/#workflow-collaboratif)
+[Présentation détaillée sur le site du cours](https://ensae-reproductibilite.netlify.app/git/#workflow-collaboratif)
 
 ----
 
@@ -383,9 +383,9 @@ et qui est **isolé** des autres environnements existants
 
 ### En pratique
 
-- [Exercice guidé](https://hungry-hodgkin-0a5a81.netlify.app/portability/#en-pratique)
+- [Exercice guidé](https://ensae-reproductibilite.netlify.app/portability/#en-pratique)
 
-- [Aide-mémoire des principales commandes](https://hungry-hodgkin-0a5a81.netlify.app/portability/#aide-m%c3%a9moire)
+- [Aide-mémoire des principales commandes](https://ensae-reproductibilite.netlify.app/portability/#aide-m%c3%a9moire)
 
 ----
 
@@ -455,9 +455,9 @@ Source : [k21academy.com](https://k21academy.com/docker-kubernetes/docker-and-ku
 
 ### En pratique
 
-- [Exercice guidé](https://hungry-hodgkin-0a5a81.netlify.app/portability/#en-pratique-1)
+- [Exercice guidé](https://ensae-reproductibilite.netlify.app/portability/#en-pratique-1)
 
-- [Aide-mémoire des principales commandes](https://hungry-hodgkin-0a5a81.netlify.app/portability/#en-pratique-1)
+- [Aide-mémoire des principales commandes](https://ensae-reproductibilite.netlify.app/portability/#en-pratique-1)
 
 ---
 
@@ -467,7 +467,7 @@ Source : [k21academy.com](https://k21academy.com/docker-kubernetes/docker-and-ku
 
 ### Motivation
 
-- La **massification** et **diversification** des données apportent de nombreux changements
+- La **massification** et la **diversification** des données apportent de nombreux changements
     - Le *Data Lake*
     - Le *Data Lab*
     - De nouveaux profils : *Data Scientist*, *Data Engineer*, *Data Architect*
@@ -540,7 +540,7 @@ Source : [k21academy.com](https://k21academy.com/docker-kubernetes/docker-and-ku
 - Un **orchestrateur** de conteneurs répond à plusieurs besoins :
     - Adapter les ressources (**scaler**) selon les besoins
     - **Monitoring** de l'état de santé des applications
-    - Déploiements reproductibles et automatisés
+    - Déploiements **reproductibles** et **automatisés**
 
 [<img src="img/kubernetes-logo.png" height="100"/>](img/kubernetes-logo.png)
 
@@ -584,13 +584,4 @@ Source : [k21academy.com](https://k21academy.com/docker-kubernetes/docker-and-ku
 
 - Dépôt GitHub : [https://github.com/avouacr/ensae-reproductibilite-projet](https://github.com/avouacr/ensae-reproductibilite-projet)
 
-- Consignes sur la page [Application](https://hungry-hodgkin-0a5a81.netlify.app/application/) du cours
-
-- Au programme :
-    - Modularisation : mise en fonctions et en modules
-    - Nettoyage de code avec un *linter*
-    - Adoption d'une architecture de projet normalisée
-    - Git et GitHub
-    - Environnements virtuels
-    - Conteneurisation avec Docker
-    - Déploiement et automatisation
+- Consignes sur la page [Application](https://ensae-reproductibilite.netlify.app/application/) du cours
