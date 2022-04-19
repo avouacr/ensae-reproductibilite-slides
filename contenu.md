@@ -544,6 +544,12 @@ Source : [k21academy.com](https://k21academy.com/docker-kubernetes/docker-and-ku
 
 [<img src="img/kubernetes-logo.png" height="200"/>](img/kubernetes-logo.png)
 
+----
+
+### Fonctionnement de Kubernetes
+
+![](img/kubernetes-archi.png)
+
 ---
 
 # Application
