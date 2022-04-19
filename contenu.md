@@ -461,6 +461,49 @@ Source : [k21academy.com](https://k21academy.com/docker-kubernetes/docker-and-ku
 
 ---
 
+# Vers la mise en production
+
+----
+
+### Motivation
+
+- La **massification** et **diversification** des données apportent de nombreux changements
+    - Le *Data Lake*
+    - Le *Data Lab*
+    - De nouveaux profils : *Data Scientist*, *Data Engineer*, *Data Architect*
+
+- La majorité des projets de data science ne sont **pas déployés**
+
+- Besoin d'**industrialisation** qui nécessite de nouveaux outils
+
+----
+
+### L'approche DevOps
+
+- Idée : **unifier** le développement (*dev*) et l'administration système (*ops*)
+
+- But : raccourcir le temps de développement en **déployant en continu** tout en maintenant la qualité
+
+[<img src="img/devops.png" height="400"/>](img/devops.png)
+
+----
+
+### DevOps, DataOps, MLOps ?
+
+- Le ***DevOps*** n'intègre pas les spécificités liées à la data science
+
+- ***DataOps*** : déploiement et maintenance de **pipelines de données**
+
+- ***MLOps*** : déploiement et maintenance de **modèles de Machine Learning**
+
+- Idée générale : **bonnes pratiques** pour favoriser la collaboration et faciliter les déploiements
+
+----
+
+
+
+---
+
 # Application
 
 ----
