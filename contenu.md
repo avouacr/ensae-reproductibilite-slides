@@ -531,6 +531,19 @@ Source : [k21academy.com](https://k21academy.com/docker-kubernetes/docker-and-ku
 
 ![](img/api-docker.png)
 
+----
+
+### Environnement de production
+
+- Dépend essentiellement de l'infrastructure à disposition
+
+- Un **orchestrateur** de conteneurs répond à plusieurs besoins :
+    - Adapter les ressources (**scaler**) selon les besoins
+    - **Monitoring** de l'état de santé des applications
+    - Déploiement **automatisé** au maximum
+
+[<img src="img/kubernetes-logo.png" height="200"/>](img/kubernetes-logo.png)
+
 ---
 
 # Application
