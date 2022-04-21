@@ -570,7 +570,7 @@ Source : [k21academy.com](https://k21academy.com/docker-kubernetes/docker-and-ku
 
 ### Pipeline complet
 
-- Les données d'entrée ne sont pas fixes, il faut les intégrer dans un **pipeline** complet de tranformations
+- Les données d'entrée ne sont pas fixes, il faut les intégrer dans un **pipeline** complet de données
 
 - La représentation est faite sous forme de graphes acycliques dirigés (DAG)
 
